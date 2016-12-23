@@ -388,6 +388,11 @@ line-height: 1.5em;
   .title{
     font-size: 3em;
   }
+
+   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 120px !important;
+    line-height: 120px !important;
+}
  
 }
 
