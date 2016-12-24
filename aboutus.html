@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="viperdev">
 <head>
 
   <title>Viper Development</title>
@@ -7,6 +7,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>	
 	<link rel="stylesheet" href="bootstrap.min.css">
@@ -15,8 +16,8 @@
 
 </head>
 <body>
-  <main>
-<!--
+  <main ng-controller="Data as dc">
+  <!--
   <div class="row nav-row">
     <div class="col s12">
       <ul class="tabs nav-tabs tabs-fixed-width ">
@@ -35,20 +36,16 @@
         <li><a href="diveintovd.html">DIVE INTO VIPERDEV</a></li>
         <li ><a href="catchinaction.html">CATCH IN ACTION</a></li>
         <li><a href="letsdoit.html">LET US DO IT</a></li>
-                        <li><a href="quote.html">REQUEST A QUOTE</a></li>
-
+        <li><a href="quote.html">REQUEST A QUOTE</a></li>
         <li class="active"><a href="aboutus.html">ABOUT US</a></li>
-        
       </ul>
 
       <ul class="side-nav" id="mobile-demo">
         <li ><a href="index.html">HOME</a></li>
-
         <li><a href="diveintovd.html">DIVE INTO VIPERDEV</a></li>
         <li ><a href="catchinaction.html">CATCH IN ACTION</a></li>
         <li><a href="letsdoit.html">LET US DO IT</a></li>
-                        <li><a href="quote.html">REQUEST A QUOTE</a></li>
-
+        <li><a href="quote.html">REQUEST A QUOTE</a></li>
         <li class="active"><a href="aboutus.html">ABOUT US</a></li>
       </ul>
     </div>
@@ -66,52 +63,26 @@
         <div class="container">
           <div class="row showcase-gi">
 
-          <div   class="card card-main showcase-card-gi">
+          <div ng-repeat="mem in dc.prof"  class="card card-main showcase-card-gi">
              <div class="empty">
              </div>
              <div class="card-action profile-data" >
               <center>
-                <img class="profile-img" height="100" ></center>
-
-                <div class="person-name">NAME</div>
-                <div class="person-github-id">GITHUB ID</div>
-                <div class="person-github-bio">BIO</div>
+                <img class="profile-img" ng-src={{mem.avatar_url}} height="150" ></center>
+<br>
+                <div class="person-name">{{mem.user_data.name}}</div>
+                <div class="person-github-id">{{mem.login}}</div>
+                <div class="person-github-bio">{{mem.user_data.bio}}</div>
                
 
              </div>
            </div>
 
 
-  <div   class="card card-main showcase-card-gi">
-             <div class="empty">
-             </div>
-             <div class="card-action profile-data" >
-              <center>
-                <img class="profile-img" height="100" ></center>
-
-                <div class="person-name">NAME</div>
-                <div class="person-github-id">GITHUB ID</div>
-                <div class="person-github-bio">BIO</div>
-               
-
-             </div>
-           </div>
 
 
-             <div   class="card card-main showcase-card-gi">
-             <div class="empty">
-             </div>
-             <div class="card-action profile-data" >
-              <center>
-                <img class="profile-img" height="100" ></center>
 
-                <div class="person-name">NAME</div>
-                <div class="person-github-id">GITHUB ID</div>
-                <div class="person-github-bio">BIO</div>
-               
-
-             </div>
-           </div>
+     
 
          </div>
        </div>
