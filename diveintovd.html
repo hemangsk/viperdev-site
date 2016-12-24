@@ -4,12 +4,14 @@
 
   <title>Viper Development</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>	
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+ 
 	<link rel="stylesheet" href="bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -116,6 +118,37 @@
     </div>
   </div>
   </section>
+
+  <div class="container">
+    <div class="">
+    <div class="" href="#one!">
+      <div class="quotation">
+      Viper Development helped us save at least 2 million euro revenue per year with just a two week contract.
+</div>
+
+<div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
+    </div>
+    <br><br>
+    <div class="carousel-item" href="#two!">
+      
+      <div class="quotation">
+      Viper Development brought new ideas into our system. Their empathy and leadership skills have persuaded developers to want to give up legacy code and difficult habits.
+</div>
+<div class="author-quote">Stanislav Komanec, Team Lead at Skypicker</div>
+    </div><br><br>
+    <div class="carousel-item" href="#three!">
+      <div class="quotation">
+      This social talk was the best I have heard in all the conferences this year! Being passionately, very practical and insightful - a rare combination.
+</div>
+<div class="author-quote">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
+    </div>
+    <div class="carousel-item" href="#four!">
+      <div class="quotation">
+</div>
+<div class="author-quote"> </div>
+    </div>
+  </div>
+  </div>
 </section>
 
 </main>
@@ -126,12 +159,26 @@
 </html>
 
 <style>
+.carousel-slider {
+    height: 400px !important;
+}
+.quotation{
+      font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
 
+.author-quote{
+      font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
 </style>
 
 <script type="text/javascript">
   $(document).ready(function () {
      $(".button-collapse").sideNav();
+    $('.carousel-slider').slider({full_width: true});
   })
 </script>
 <script>
