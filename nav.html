@@ -1,74 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-	<title></title>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>	
-	<link rel="stylesheet" href="https://raw.githubusercontent.com/hemangsk/json_endpoints/master/bootstrap.min.css">
-	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-</head>
-<body>
-  <nav>
-    <div class="nav-wrapper">
-     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class=" full hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li class="active"><a href="collapsible.html">JavaScript</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li ><a href="collapsible.html">JavaScript</a></li>
-         <li><a href="badges.html">Components</a></li>
-        <li ><a href="collapsible.html">JavaScript</a></li>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
+       <ul class=" full hide-on-med-and-down">
+        <li class="{active: isSet(1)}"><a href="index.html">HOME</a></li>
+        <li class="{active: isSet(2)}"><a href="diveintovd.html">DIVE INTO VIPERDEV</a></li>
+        <li class="{active: isSet(3)}"><a href="catchinaction.html">CATCH IN ACTION</a></li>
+        <li class="{active: isSet(4)}"><a href="letsdoit.html">LET US DO IT</a></li>
+        <li class="{active: isSet(5)}"><a href="aboutus.html">ABOUT US</a></li>
+        
       </ul>
 
-        <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+      <ul class="side-nav" id="mobile-demo">
+        <li class="{active: isSet(1)}"><a href="index.html">HOME</a></li>
+        <li class="{active: isSet(2)}"><a href="diveintovd.html">DIVE INTO VIPERDEV</a></li>
+        <li class="{active: isSet(3)}"><a href="catchinaction.html">CATCH IN ACTION</a></li>
+        <li class="{active: isSet(4)}"><a href="letsdoit.html">LET US DO IT</a></li>
+        <li class="{active: isSet(5)}"><a href="aboutus.html">ABOUT US</a></li>
       </ul>
     </div>
   </nav>
-        
-</body>
-</html>
-
-<style type="text/css">
-nav ul a {
-    transition: background-color .3s;
-    font-size: 1rem;
-    color: black !important;
- 
-    padding: 0 15px;
-    cursor: pointer;
-    text-transform: uppercase !important;
-    letter-spacing: 0.1em !important;
-}
-
-nav {
-    color: #000;
-    background-color: #fff !important; 
-    width: 100%;
-    height: 56px;
-    line-height: 56px;
-}
-
-.full{
-  display: flex ;
-  justify-content:space-between ;
-  list-style-type: none ;
-}
-.material-icons{
-	    color: black;
-}
-</style>
-<script type="text/javascript">
-	$(document).ready(function () {
-		 $(".button-collapse").sideNav();
-	})
-</script>
+</div>
