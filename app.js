@@ -30,7 +30,7 @@ app.controller('Data', ['$http', function($http , $scope){
 			"name" : "Hemang Kumar",
 			"id" : "@hemangsk",
 			"picture": "https://avatars1.githubusercontent.com/u/13018570",
-			"bio" : "Newbie guy in the team. Loves meeting new people. Wants to be a 'code Handyman'."
+			"bio" : "Newbie in the team. Loves meeting new people. Wants to be a 'code Handyman'."
 		}
 	]
 	if(self.prof == null){
