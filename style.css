@@ -231,6 +231,13 @@ nav ul li.active {
   margin-top: 1em;
 }
 
+.showcase-gi-quote{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
 .showcase-card-gi{
   width: 200px;
   margin-left: 0.5em !important;
@@ -241,12 +248,14 @@ nav ul li.active {
 }
 
 .showcase-card-gi-quote{
-  width: 300px;
+  width: 250px;
+  font-family: Roboto !important;
   margin-left: 0.5em !important;
   margin-right: 0.5em !important;
   margin-top: 0em !important;
     margin-bottom: 2em !important;
     line-height: 3;
+    background-color: lightslategrey !important;
 
 }
 .card-title{
@@ -414,6 +423,17 @@ line-height: 1.5em;
 
 }
 
+.profile-data-quote{
+      padding: 2.5em !important;
+    background: lightslategray !important;
+    color: white !important;
+}
+.person-name-quote{
+  padding: 1em;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
 @media only screen and (max-width: 500px){
   .title{
     font-size: 3em;
