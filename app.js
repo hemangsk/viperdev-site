@@ -6,14 +6,14 @@ app.controller('Data', ['$http', function($http , $scope){
 		{
 			"name" : "Mischa Krüger",
 			"id" : "@Makman2",
-			"picture" : "",
+			"picture" : "https://avatars3.githubusercontent.com/u/6023916",
 			"bio": ""
 		},
 	
 		{
 			"name" : "Lasse Schuirmann",
 			"id" : "@sils",
-			"picture" : "",
+			"picture" : "https://avatars2.githubusercontent.com/u/5716520",
 			"bio": ""
 		},
 
@@ -22,14 +22,14 @@ app.controller('Data', ['$http', function($http , $scope){
 		{
 			"name" : "",
 			"id" : "@sims1253",
-			"picture" : "",
+			"picture" : "https://avatars3.githubusercontent.com/u/6530123",
 			"bio": ""
 		},
 
 		{
 			"name" : "Hemang Kumar",
 			"id" : "@hemangsk",
-			"picture": "",
+			"picture": "https://avatars1.githubusercontent.com/u/13018570",
 			"bio" : ""
 		}
 	]
