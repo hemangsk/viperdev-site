@@ -29,7 +29,16 @@ nav {
  }
 
  .quote-tagline{
-  font-weight: 400;
+      background-color: lightslategrey;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    font-weight: 400;
+        display: -webkit-inline-box;
+        display: inline-block;
  }
 
 .full{
