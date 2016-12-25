@@ -359,16 +359,18 @@ a:hover > .card{
 .problem{
   font-family: "Amatic SC";
   font-size: 2.5em;
+  word-spacing: 0.2em;
 }
 
 .john-title{
   font-size: 5em;
   font-family: "Amatic SC";
+  word-spacing: 0.2em;
 }
 .john-small{
   font-size: 3em;
   font-family: "Amatic SC";
-
+    word-spacing: 0.3em;
 }
 
 
@@ -390,17 +392,22 @@ a:hover > .card{
 .viperdev-call{
   font-family: Roboto;
   font-weight: 300;
+  font-size: 0.7em;
 
 }
 
 .john-smile{
   font-size: 5em !important;
 }
-.fa-plane, .fa-phone, .fa-wrench, .fa-code-fork, .fa-terminal, .fa-laptop{
+ .fa-code-fork, .fa-terminal, .fa-laptop{
   font-size: 5em !important;
   text-align: center;
 }
 
+.plain-fa{
+  font-size: 1em !important;
+
+}
 #sidenav-overlay {
 
     z-index: 1 !important;
