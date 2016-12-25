@@ -396,7 +396,7 @@ a:hover > .card{
 .john-smile{
   font-size: 5em !important;
 }
-.fa-plane, .fa-phone, .fa-wrench{
+.fa-plane, .fa-phone, .fa-wrench, .fa-code-fork, .fa-terminal, .fa-laptop{
   font-size: 8em !important;
   text-align: center;
 }
