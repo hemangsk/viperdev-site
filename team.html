@@ -5,6 +5,7 @@
   <title>Viper Development</title>
   <link rel="stylesheet" type="text/css" href="style.css">
  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
@@ -13,7 +14,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <link rel="stylesheet" href="bootstrap.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-72344405-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </head>
 <body>
@@ -34,18 +44,18 @@
        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
        <ul class=" full hide-on-med-and-down">
         <li ><a href="index.html">HOME</a></li>
-        <li><a href="diveintovd.html">DIVE INTO VIPERDEV</a></li>
+        <li><a href="aboutvd.html">ABOUT VIPERDEV</a></li>
         <li><a href="letsdoit.html">LET US DO IT</a></li>
         <li><a href="quote.html">REQUEST A QUOTE</a></li>
-        <li class="active"><a href="aboutus.html">ABOUT US</a></li>
+        <li class="active"><a href="team.html">MEET THE TEAM</a></li>
       </ul>
 
       <ul class="side-nav" id="mobile-demo">
         <li ><a href="index.html">HOME</a></li>
-        <li><a href="diveintovd.html">DIVE INTO VIPERDEV</a></li>
+        <li><a href="aboutvd.html">ABOUT VIPERDEV</a></li>
         <li><a href="letsdoit.html">LET US DO IT</a></li>
         <li><a href="quote.html">REQUEST A QUOTE</a></li>
-        <li class="active"><a href="aboutus.html">ABOUT US</a></li>
+        <li class="active"><a href="team.html">MEET THE TEAM</a></li>
       </ul>
     </div>
   </nav>
@@ -53,8 +63,8 @@
 <section id="test1">
   <div class="container">
    <div >
-    <div class="dive-title">About Us</div>
-    <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'>coala</span> &amp; <span style='letter-spacing: 0px !important'>GitMate</span></div>
+    <div class="dive-title">Meet the Team</div>
+    <div class="viper-subtitle">OUR CONTRACTORS WHO ARE WORKING TOWARDS YOUR NEEDS</div>
     <br><br>
     <div class="images row">
 
@@ -62,16 +72,16 @@
         <div class="container">
           <div class="row showcase-gi">
 
-          <div ng-repeat="mem in dc.prof"  class="card card-main showcase-card-gi">
+          <div ng-repeat="mem in dc.profile"  class="card card-main showcase-card-gi">
              <div class="empty">
              </div>
              <div class="card-action profile-data" >
               <center>
-                <img class="profile-img" ng-src={{mem.avatar_url}} height="150" ></center>
+                <img class="profile-img" ng-src={{mem.picture}} height="150" ></center>
 <br>
-                <div class="person-name">{{mem.user_data.name}}</div>
-                <div class="person-github-id">{{mem.login}}</div>
-                <div class="person-github-bio">{{mem.user_data.bio}}</div>
+                <div class="person-name">{{mem.name}}</div>
+                <div class="person-github-id">{{mem.id}}</div>
+                <div class="person-github-bio">{{mem.bio}}</div>
              </div>
            </div>
          </div>
