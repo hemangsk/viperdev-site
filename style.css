@@ -218,6 +218,12 @@ input:not([type]).valid, input:not([type]):focus.valid, input[type=text].valid, 
   font-size:0.5em;
 }
 
+nav .side-nav li.active{
+
+    border-bottom: 0px !important;
+ background-color: rgba(0,0,0,0.05) !important;
+  
+}
 nav ul li.active {
   font-weight: 900 !important;
   background:none !important;
@@ -361,6 +367,8 @@ a:hover > .card{
   font-size: 2.5em;
   word-spacing: 0.2em;
 }
+
+
 
 .john-title{
   font-size: 5em;
