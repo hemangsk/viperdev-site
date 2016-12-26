@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="viperdev">
 <head>
 
   <title>Viper Development</title>
@@ -8,6 +8,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <link rel="stylesheet" href="bootstrap.min.css">
@@ -24,7 +25,7 @@
 
 </script>
 </head>
-<body>
+<body ng-controller="Data as dc">
   <main>
 <!--
   <div class="row nav-row">
@@ -37,28 +38,7 @@
     </div>
   -->
   <div >
-    <nav>
-      <div class="nav-wrapper">
-       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
-       <ul class=" full hide-on-med-and-down">
-        <li ><a href="index.html">HOME</a></li>
-        <li><a href="howitworks.html">HOW IT WORKS</a></li>
-                        <li class="active"><a href="quote.html">REQUEST A QUOTE</a></li>
-
-        <li ><a href="team.html">MEET THE TEAM</a></li>
-
-      </ul>
-
-      <ul class="side-nav" id="mobile-demo">
-        <li ><a href="index.html">HOME</a></li>
-
-        <li><a href="howitworks.html">HOW IT WORKS</a></li>
-                                <li class="active"><a href="quote.html">REQUEST A QUOTE</a></li>
-
-        <li ><a href="team.html">MEET THE TEAM</a></li>
-      </ul>
-    </div>
-  </nav>
+<ng-include src="'nav.html'"></ng-include>
 </div>
 <section id="test1">
   <div class="container">
@@ -72,83 +52,25 @@
         <div class="container">
           <div class="row showcase-gi">
 
-          <div   class="card card-main showcase-card-gi-quote">
+          <div  ng-repeat="plan in dc.plans" class="card card-main showcase-card-gi-quote">
              <div class="empty">
-                             <div class="person-name-quote">Continuous Integration</div>
+                             <div class="person-name-quote">{{plan.title}}</div>
 
              </div>
              <div class="card-action profile-data-quote plans" >
 
                 <ul type="square">
-                <li>Introducing CI</li>
-                <li>Getting your team aquainted with CI</li>
-                <li>The most popular CIs</li>
-                <li>Common Use cases</li>
-                <li>Specific Use cases</li>
+                <li ng-repeat="feature in plan.features">{{ feature }}</li>
+              
                 </ul>
 
 
              </div>
            </div>
 
-       <div   class="card card-main showcase-card-gi-quote">
-             <div class="empty">
-                             <div class="person-name-quote">Version Control Workshop</div>
-
-             </div>
-             <div class="card-action profile-data-quote plans" >
-
-                <ul type="square">
-                <li>Introducing VCS</li>
-                <li>Getting your team aquainted with VCS</li>
-                <li>The most popular VCSs</li>
-                <li>Common Use cases</li>
-                <li>Specific Use cases</li>
-                </ul>
+      
 
 
-
-             </div>
-           </div>
-
-               <div   class="card card-main showcase-card-gi-quote">
-             <div class="empty">
-                             <div class="person-name-quote">Code Management</div>
-
-             </div>
-             <div class="card-action profile-data-quote plans" >
-
-                <ul type="square">
-                <li>Introduce new code management tools</li>
-                <li>Throwing away legacy code</li>
-                <li>Difficult habbits and how to overcome</li>
-                <li>Bringing full potential out of the employees</li>
-
-                </ul>
-
-
-             </div>
-           </div>
-
-
- <div   class="card card-main showcase-card-gi-quote">
-             <div class="empty">
-                             <div class="person-name-quote">Get Your Company in Open Source</div>
-
-             </div>
-             <div class="card-action profile-data-quote plans" >
-
-                <ul type="square">
-                <li>Open Source is a huge opportunity and way more than just a buzzword.</li>
-                <li>Doing Open Source the right way and profitting from it</li>
-                <li>Transform your business into a community of several-hundred-people.</li>
-
-
-                </ul>
-
-
-             </div>
-           </div>
 
 
          </div>
@@ -207,6 +129,8 @@
 <script type="text/javascript">
   $(document).ready(function () {
    $(".button-collapse").sideNav();
+      $('.quote-link').addClass('active');
+
  })
 </script>
 <script>
