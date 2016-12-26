@@ -27,19 +27,25 @@
 </head>
 <body ng-controller="Data as dc">
   <main>
-<!--
-  <div class="row nav-row">
-    <div class="col s12">
-      <ul class="tabs nav-tabs tabs-fixed-width ">
-        <li class="tab col s3"><a class="active" href="#test1">viperdev.io</a></li>
-        <li class="tab col s3"><a  href="#test2">Dive into viperdev</a></li>
-        <li class="tab col s3"><a href="#test3">About Us</a></li>
+
+ <nav>
+      <div class="nav-wrapper">
+       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
+       <ul class=" full hide-on-med-and-down">
+        <li ><a href="index.html">HOME</a></li>
+        <li><a href="howitworks.html">HOW IT WORKS</a></li>
+        <li class="active"><a href="quote.html">REQUEST A QUOTE</a></li>
+        <li ><a href="team.html">MEET THE TEAM</a></li>
+      </ul>
+
+      <ul class="side-nav" id="mobile-demo">
+        <li ><a href="index.html">HOME</a></li>
+        <li><a href="howitworks.html">HOW IT WORKS</a></li>
+        <li class="active"><a href="quote.html">REQUEST A QUOTE</a></li>
+        <li ><a href="team.html">MEET THE TEAM</a></li>
       </ul>
     </div>
-  -->
-  <div >
-<ng-include src="'nav.html'"></ng-include>
-</div>
+  </nav>
 <section id="test1">
   <div class="container">
    <div >
@@ -129,7 +135,6 @@
 <script type="text/javascript">
   $(document).ready(function () {
    $(".button-collapse").sideNav();
-      $('.quote-link').addClass('active');
 
  })
 </script>
