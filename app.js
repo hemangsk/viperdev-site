@@ -46,35 +46,51 @@ app.controller('Data', ['$http', function($http , $scope){
 	self.plans = [
 		{
 			"title" : "Plan1",
+			"subtitle": "subtitle1"
 			"features" : [
 				"feature1",
 				"feature2",
 				"feature3"
-			]	
+			],
+			"location": "location",
+			"duration": "duration",
+			"price": "price"	
 		},
 		{
 			"title" : "Plan2",
+			"subtitle": "subtitle2"
 			"features" : [
 				"feature1",
 				"feature2",
 				"feature3"
-			]	
+			],
+			"location": "location",
+			"duration": "duration",
+			"price": "price"
 		},
 		{
 			"title" : "Plan3",
+			"subtitle": "subtitle3"
 			"features" : [
 				"feature1",
 				"feature2",
 				"feature3"
-			]	
+			],
+			"location": "location",
+			"duration": "duration",
+			"price": "price"	
 		},
 		{
 			"title" : "Plan4",
+			"subtitle": "subtitle4"
 			"features" : [
 				"feature1",
 				"feature2",
 				"feature3"
-			]	
+			],
+			"location": "location",
+			"duration": "duration",
+			"price": "price"
 }
 	]
 	

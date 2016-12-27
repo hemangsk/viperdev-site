@@ -59,11 +59,15 @@
           <div class="row showcase-gi">
 
           <div  ng-repeat="plan in dc.plans" class="card card-main showcase-card-gi-quote">
-             <div class="empty">
-                             <div class="person-name-quote">{{plan.title}}</div>
+             <div class="empty-quote">
+                             <div class="name-quote">{{plan.title}}</div>
+
+                            <div class="small-name-quote">{{ plan.subtitle }}</div>
+
 
              </div>
-             <div class="card-action profile-data-quote plans" >
+            
+             <div class="card-action quote-data plans" >
 
                 <ul type="square">
                 <li ng-repeat="feature in plan.features">{{ feature }}</li>
@@ -71,6 +75,24 @@
                 </ul>
 
 
+             </div>
+             <div class="card-action small-fields-3">
+             <div class="row">
+                <div class="location col-md-12">{{plan.location}}</div>
+                   
+                      </div>
+             </div>
+              <div class="card-action small-fields-2">
+                <div class="row">
+                <div class="duration col-md-12">{{plan.duration}}</div>
+                     
+                      </div>
+             </div>
+              <div class="card-action  small-fields">
+                 <div class="row">
+                <div class="price-range col-md-12">{{plan.price}}</div>
+                    
+                      </div>
              </div>
            </div>
 
@@ -128,6 +150,61 @@
 
 .plans > ul >  li{
   list-style-type: disc;
+}
+
+
+.small-fields-3{
+   padding: 0.1em !important;
+ letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color:#607d8b !important;
+  color: white;
+  
+}
+
+.quote-data{
+  background-color: #78909c !important;
+      padding: 2.5em !important;
+    color: white !important;
+}
+.small-fields-2{
+   padding: 0.1em !important;
+ letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color:#37474f !important;
+  color: white;
+  
+}
+.small-fields{
+  padding: 0.1em !important;
+ letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #263238 !important;
+  color: white;
+}
+
+.name-quote {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2 !important;
+}
+
+.small-name-quote{
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+
+.empty-quote{
+      background-color: #eceff1 !important;
+    height: 7em;
 }
 </style>
 
