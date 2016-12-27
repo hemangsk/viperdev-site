@@ -19,11 +19,14 @@
       <ul class="side-nav" id="mobile-demo">
        {% assign sorted_pages = site.pages | sort:"order" %}  
   {% for node in sorted_pages %}
+  {% if node.order %}
     {% if page.url == node.url %}
       <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
     {% else %}
       <li><a href="{{node.url}}">{{node.title}}</a></li>
     {% endif %}
+    {% endif %}
+
   {% endfor %}
      </ul>
    </div>
