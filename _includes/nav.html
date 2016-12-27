@@ -1,0 +1,28 @@
+   <nav>
+      <div class="nav-wrapper">
+       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
+       <ul class=" full hide-on-med-and-down">
+  {% assign sorted_pages = site.pages | sort:"order" %}  
+  {% for node in sorted_pages %}
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url}}">{{node.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+
+
+          </ul>
+
+      <ul class="side-nav" id="mobile-demo">
+       {% assign sorted_pages = site.pages | sort:"order" %}  
+  {% for node in sorted_pages %}
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url}}">{{node.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+     </ul>
+   </div>
+ </nav>

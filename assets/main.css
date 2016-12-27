@@ -451,6 +451,20 @@ line-height: 1.5em;
   line-height: 1.2 !important;
 
 }
+
+.mailbtn {
+      display: inline-flex !important;
+}
+.mailicn{
+  padding-left: 0.5em;
+}
+.change-row{
+  margin-bottom: 0px !important;
+}
+
+.change-dive{
+  padding: 0em !important;
+}
 @media only screen and (max-width: 500px){
   .title{
     font-size: 3em;
@@ -472,4 +486,95 @@ line-height: 1.5em;
   }
 
 
+}
+
+.dive-small-title{
+  font-size: 18px;
+  font-weight: 300;
+}
+.plans{
+  font-weight: 300;
+}
+
+.plans > ul >  li{
+  list-style-type: disc;
+}
+
+
+.small-fields-3{
+   padding: 0.1em !important;
+ letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color:#607d8b !important;
+  color: white;
+  
+}
+
+.quote-data{
+  background-color: #78909c !important;
+      padding: 2.5em !important;
+    color: white !important;
+}
+.small-fields-2{
+   padding: 0.1em !important;
+ letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color:#37474f !important;
+  color: white;
+  
+}
+.small-fields{
+  padding: 0.1em !important;
+ letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #263238 !important;
+  color: white;
+}
+
+.name-quote {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2 !important;
+}
+
+ .prob-1{
+    background-color: lightblue;
+    padding: 1em;
+  }
+
+   .prob-2{
+    background-color: lightcyan;
+    padding: 1em;
+  }
+
+   .prob-3{
+    background-color: lightgrey;
+    padding: 1em;
+  }
+.mailbtn {
+      display: inline-flex !important;
+}
+.mailicn{
+  padding-left: 0.5em;
+}
+.problem{
+  text-transform: uppercase;
+  text-align: justify !important;
+}
+.small-name-quote{
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+
+.empty-quote{
+      background-color: #eceff1 !important;
+    height: 7em;
 }

@@ -46,7 +46,7 @@ app.controller('Data', ['$http', function($http , $scope){
 	self.plans = [
 		{
 			"title" : "Plan1",
-			"subtitle": "subtitle1"
+			"subtitle": "subtitle1",
 			"features" : [
 				"feature1",
 				"feature2",
@@ -58,7 +58,7 @@ app.controller('Data', ['$http', function($http , $scope){
 		},
 		{
 			"title" : "Plan2",
-			"subtitle": "subtitle2"
+			"subtitle": "subtitle2",
 			"features" : [
 				"feature1",
 				"feature2",
@@ -70,7 +70,7 @@ app.controller('Data', ['$http', function($http , $scope){
 		},
 		{
 			"title" : "Plan3",
-			"subtitle": "subtitle3"
+			"subtitle": "subtitle3",
 			"features" : [
 				"feature1",
 				"feature2",
@@ -82,7 +82,7 @@ app.controller('Data', ['$http', function($http , $scope){
 		},
 		{
 			"title" : "Plan4",
-			"subtitle": "subtitle4"
+			"subtitle": "subtitle4",
 			"features" : [
 				"feature1",
 				"feature2",
