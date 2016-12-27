@@ -26,20 +26,18 @@ order: 3
                 <li ng-repeat="feature in plan.features">{{ feature }}</li>
               </ul>
             </div>
-            <div class="card-action small-fields-3">
-             <div class="row">
-              <div class="location col-md-12">{{plan.location}}</div>
-            </div>
-          </div>
+            <div class="small-fields-group">
+           
           <div class="card-action small-fields-2">
-            <div class="row">
+            <div class="row sfr">
               <div class="duration col-md-12">{{plan.duration}}</div>
             </div>
           </div>
           <div class="card-action  small-fields">
-           <div class="row">
+           <div class="row sfr">
             <div class="price-range col-md-12">{{plan.price}}</div>
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -47,7 +45,9 @@ order: 3
 </div>
 </div>
 </div>
-
+<div class="container">
+<div class="disclaimer-pricing">All prices are exclusive VAT. If the engagement happens on your premises, you will be responsible for covering travel and accommodation cost.</div>
+</div>
 <div class="dive-title">Looking for a personalised plan ?</div>
 <center><div class="dive-small-title">Just drop us a mail at <a href="mailto:contact@viperdev.io">contact@viperdev.io</a></div></center>
 <br><br>
@@ -66,3 +66,24 @@ order: 3
 </section>
 </div>
 </div>
+
+<style type="text/css">
+.sfr{
+  margin-bottom: 0px !important;
+}
+  .small-fields-group{
+      margin-bottom: 0px !important;
+    text-align: center;
+    width: 100%;
+    bottom: 0 !important;
+    position: absolute;
+  }
+
+  .small-fields-group > div{
+    padding:1em !important;
+  }
+
+  .disclaimer-pricing{
+    text-align: center;
+  }
+</style>

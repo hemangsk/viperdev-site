@@ -260,7 +260,7 @@ nav ul li.active {
   margin-right: 0.5em !important;
   margin-top: 0em !important;
     margin-bottom: 2em !important;
-    line-height: 3;
+    line-height: 2;
     background-color: lightslategrey !important;
 
 }
@@ -502,7 +502,6 @@ line-height: 1.5em;
 
 
 .small-fields-3{
-   padding: 0.1em !important;
  letter-spacing: 0.1em;
   text-align: center;
   text-transform: uppercase;
@@ -512,12 +511,13 @@ line-height: 1.5em;
 }
 
 .quote-data{
-  background-color: #78909c !important;
-      padding: 2.5em !important;
+background-color:#607d8b !important;
+      padding-left: 2.5em !important;
+      padding-right: 2.5em !important;
+height: 35em;
     color: white !important;
 }
 .small-fields-2{
-   padding: 0.1em !important;
  letter-spacing: 0.1em;
   text-align: center;
   text-transform: uppercase;
@@ -526,7 +526,6 @@ line-height: 1.5em;
   
 }
 .small-fields{
-  padding: 0.1em !important;
  letter-spacing: 0.1em;
   text-align: center;
   text-transform: uppercase;
@@ -576,5 +575,5 @@ line-height: 1.5em;
 
 .empty-quote{
       background-color: #eceff1 !important;
-    height: 7em;
+    height: 10em;
 }

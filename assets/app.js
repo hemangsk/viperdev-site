@@ -45,52 +45,50 @@ app.controller('Data', ['$http', function($http , $scope){
 
 	self.plans = [
 		{
-			"title" : "Plan1",
-			"subtitle": "subtitle1",
+			"title" : "Code Quality Workshop",
+			"subtitle": "Level up your team - reduce downtimes!",
 			"features" : [
-				"feature1",
-				"feature2",
-				"feature3"
+				"Learn practically about git, continuous integration and code review",
+				"Define a development workflow with and for your teams",
+				"Lock out bad code despite practical restrictions"
 			],
-			"location": "location",
-			"duration": "duration",
-			"price": "price"	
+			"duration": "5-8 hours",
+			"price": "2000eur"	
 		},
 		{
-			"title" : "Plan2",
-			"subtitle": "subtitle2",
+			"title" : "Roadmap Session",
+			"subtitle": "Plan your project/engagement",
 			"features" : [
-				"feature1",
-				"feature2",
-				"feature3"
+				"Access our domain experience about code quality, development processes and open source",
+				"Brainstorm your problems",
+				"Evaluate possible solutions, their gains and risks",
+				"Get a roadmap for every solution including implementation options"
 			],
-			"location": "location",
-			"duration": "duration",
-			"price": "price"
+			"duration": "2-8 hours",
+			"price": "500-1600eur"
 		},
 		{
-			"title" : "Plan3",
-			"subtitle": "subtitle3",
+			"title" : "Enhance your Code Quality",
+			"subtitle": "We work with your teams to implement new policies",
 			"features" : [
-				"feature1",
-				"feature2",
-				"feature3"
+				"Get rid of downtimes",
+				"Get cleaner and more stable code",
+				"Best combined with a Roadmap Session and/or a Code Quality Workshop"
 			],
-			"location": "location",
-			"duration": "duration",
-			"price": "price"	
+			"duration": "1-4 weeks",
+			"price": "Price on request"	
 		},
 		{
-			"title" : "Plan4",
-			"subtitle": "subtitle4",
+			"title" : "Boost your Open Source Project",
+			"subtitle": "Partner with us to make your Open Source project a success",
 			"features" : [
-				"feature1",
-				"feature2",
-				"feature3"
+				"Determine if open sourcing is profitable for your project",
+				"Open source a product the right way",
+				"We help setting up or maintaining your project",
+				"Best combined with a Roadmap Session"
 			],
-			"location": "location",
-			"duration": "duration",
-			"price": "price"
+			"duration": "Flexible",
+			"price": "Price on request"
 }
 	]
 	
