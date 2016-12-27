@@ -4,7 +4,7 @@ title: "HOW IT WORKS"
 order: 2
 ---
 
-<div ng-controller="Data as dc">
+<div>
 
 
 <div class="container">

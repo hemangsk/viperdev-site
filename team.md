@@ -3,7 +3,6 @@ layout: page
 title: "MEET THE TEAM"
 order: 4
 ---
-<script src="{{ "/assets/app.js" | prepend: site.baseurl }}" type="application/javascript"></script>
 <div ng-app="viperdev">
 <div ng-controller="Data as dc">
 <section id="test1">
