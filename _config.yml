@@ -17,8 +17,8 @@ title: Viper Development
 email: contact@viperdev.io
 description: > # this means to ignore newlines until "baseurl:"
   The viperdev.io Site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/viperdev-site" # the subpath of your site, e.g. /blog
+url: "http://hemangsk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 

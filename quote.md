@@ -4,7 +4,7 @@ title: "REQUEST A QUOTE"
 order: 3
 ---
 
-<script src="/assets/app.js" type="application/javascript"></script>
+<script src="{{ "/assets/app.js" | prepend: site.baseurl }}" type="application/javascript"></script>
 <div ng-app="viperdev">
 <div ng-controller="Data as dc">
 <section id="test1">
