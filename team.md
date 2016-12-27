@@ -12,7 +12,6 @@ order: 4
     <div class="viper-subtitle">OUR CONTRACTORS WHO ARE WORKING TOWARDS YOUR NEEDS</div>
     <br><br>
     <div class="images row">
-
       <div class="col-md-12">
         <div class="container">
           <div class="row showcase-gi">
@@ -35,19 +34,16 @@ order: 4
      </div>
    </div>
  </div>
-
  <div class="" href="#one!">
   <div class="quote-tagline">QUICK SOLUTIONS</div>
       <div class="quotation">
       The team's response time was mind blowing - I could get any question answered within minutes!
 </div>
-
 <div class="author-quote">Viktoria Boss, Researcher</div>
     </div>
 </div>
 <br><br>
 <section>
-
 </section>
 </section>
 </div>

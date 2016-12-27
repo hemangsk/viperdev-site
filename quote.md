@@ -60,12 +60,8 @@ order: 3
  <div class="author-quote">Hannes W. Lampe, Researcher</div>
 </div>
 </div>
-
-
-
 <br>
 <section>
-
 </section>
 </section>
 </div>
