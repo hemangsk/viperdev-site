@@ -14,7 +14,7 @@ order: 2
 
     <div class="
     john-title">Hello! Meet John!</div>
-    <img src="/assets/images/john.png">
+    <img src="/viperdev-site/assets/images/john.png">
   </center>
   <div class="images row">
 
