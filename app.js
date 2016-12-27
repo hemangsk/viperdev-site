@@ -15,7 +15,7 @@ app.controller('Data', ['$http', function($http , $scope){
 			"bio": "Code & Review Junkie. coala core developer and inventor of the open source CE3D terminal game engine."
 		},
 		{
-			"name" : "Adhityaa Chandresakar",
+			"name" : "Adhityaa Chandrasekar",
 			"id" : "@adtac",
 			"picture" : "https://avatars2.githubusercontent.com/u/7521600",
 			"bio": "Hardcore hacker. coala core developer and creator of climate and fssb."
