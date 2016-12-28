@@ -52,18 +52,33 @@ order: 2
                <div class="col-md-6">
                  <div class="row">
                    <div class="col-md-4">   <img class="responsive-img" src="/viperdev-site/assets/images/coala_logo.svg">
+
+                   <div class="label-img">CODE ANALYSIS</div>
+          
                    </div>
-                   <div class="col-md-4"><i class="fa my-fa fa-github" aria-hidden="true"></i></div>
+                   <div class="col-md-4"><i class="fa my-fa fa-github" aria-hidden="true"></i>
+                   <div class="label-img">VERSION CONTROL</div>
+
+
+                   </div>
                    <div class="col-md-4"><i class="fa my-fa fa-code-fork" aria-hidden="true"></i>
+                                      <div class="label-img">CODE COLLABORATION</div>
+
                    </div>
 
                  </div>
                  <div class="row">
                    <div class="col-md-4"><i class="fa my-fa fa-check-circle-o" aria-hidden="true"></i>
+                                      <div class="label-img">CONTINUOUS INTEGRATION</div>
+
                    </div>
                    <div class="col-md-4"><i class="fa my-fa fa-commenting" aria-hidden="true"></i>
+                                      <div class="label-img">EFFECTIVE COMMENTS</div>
+
                    </div>
                    <div class="col-md-4"><i class="fa my-fa fa-gitlab" aria-hidden="true"></i>
+                                      <div class="label-img">CODE, TEST, DEPLOY</div>
+
                    </div>
 
                  </div>
