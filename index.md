@@ -41,7 +41,7 @@ order: 1
     </div>
     <div class="viper-subtitle">TO YOUR BUSINESS</div>
     <br><br>
-    <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'>coala</span> &amp; <span style='letter-spacing: 0px !important'>GitMate</span></div>
+    <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'><a href="http://coala.io">coala</a></span> &amp; <span style='letter-spacing: 0px !important'><a href="http://gitmate.io">GitMate</a></span></div>
     <div class="images row">
 
 
@@ -61,14 +61,17 @@ order: 1
       </center>
     </div>
   </div>
-
+  <br>
+<hr>
   <div class="" href="#one!">
-    <br>      <div class="quotation">
+     <div class="quotation">
     Viper Development helped us save at least 2 million euro revenue per year with just a two week contract.
   </div>
 
   <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
 </div>
+
+<hr><br>
 <div class="row service-row">
   <div class="col-md-6">
     <center>
@@ -76,19 +79,21 @@ order: 1
     </center>
   </div>
   <div class="col-md-6">
-   <br>
+    <div class="service-title">UNLOCKING THE TEAM'S <span class="add" style="color:crimson!important">POTENTIAL</span></div>
    <div class="service-desc">We offer workshops to get your teams up to speed when it comes to code quality. Topics include Working With Git, Finding the Perfect Development Workflow for Your Company or workshops customized to your needs. </div>
 
  </div>
 </div>
-<div class="carousel-item" href="#two!">
-  <br>
+<br>
+ <hr>
+<div class="" href="#two!">
+
   <div class="quotation">
    Viper Development brought new ideas into our system. Their empathy and leadership skills have persuaded developers to want to give up legacy code and difficult habits.
  </div>
  <div class="author-quote">Stanislav Komanec, Team Lead at Skypicker</div>
 </div>
-
+<hr><br>
 <div class="row service-row">
   <div class="col-md-6">
     <div class="service-title">PASSIONATE <span class="add">SOLUTION</span></div>
@@ -101,12 +106,15 @@ order: 1
     </center>
   </div>
 </div>
-<div class="carousel-item" href="#three!">
+<br>
+<hr>
+<div class="" href="#three!">
   <div class="quotation">
    This social talk was the best I have heard in all the conferences this year! Being passionately, very practical and insightful - a rare combination.
  </div>
  <div class="author-quote">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
 </div>
+<hr><br>
 </div>
 </section>
 </section>

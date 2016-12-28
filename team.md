@@ -26,7 +26,9 @@ order: 4
                 <br>
                 <div class="person-name">{{mem.name}}</div>
                 <div class="person-github-id">{{mem.id}}</div>
-                <div class="person-github-bio">{{mem.bio}}</div>
+                <div class="person-github-bio" ng-bind-html="mem.bio">
+                 
+                </div>
              </div>
            </div>
          </div>
@@ -34,13 +36,16 @@ order: 4
      </div>
    </div>
  </div>
+ <hr>
  <div class="" href="#one!">
       <div class="quotation">
       The team's response time was mind blowing - I could get any question answered within minutes!
 </div>
 <div class="author-quote">Viktoria Boss, Researcher</div>
     </div>
+    <hr>
 </div>
+
 <br><br>
 <section>
 </section>
@@ -51,6 +56,11 @@ order: 4
 <style type="text/css">
   .showcase-gi{
     margin-left: 0em !important;
+    margin-right: 0em !important;
+  }
+
+  .person-github-bio > a{
+    text-transform: none !important;
     margin-right: 0em !important;
   }
 </style>
