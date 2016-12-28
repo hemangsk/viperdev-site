@@ -151,10 +151,6 @@ order: 2
     <div class="scene scene1 col-md-6">
       <div class="scene-content" style="padding: 1.5em;">
         <center>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-
         </div>
       </div>
       
@@ -167,12 +163,7 @@ order: 2
       <br>
       <div class="scene scene1 col-md-6">
         <div class="scene-content" style="padding: 1.5em;">
-         <i class="fa fa-code" aria-hidden="true" style="    font-size: 5em;"></i>
-
-         <i class="fa fa-bug" aria-hidden="true" style="    font-size: 3em;"></i>
-         <i class="fa fa-code" aria-hidden="true" style="    font-size: 5em;"></i>
-
-       </div>
+         </div>
      </div>
 
      <div class="scene scene2 col-md-6">
@@ -232,10 +223,7 @@ order: 2
     <div class="scene scene1 col-md-6">
       <div class="scene-content" style="padding: 1.5em;">
         <center>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-
+   
         </div>
       </div>
       
@@ -249,10 +237,7 @@ order: 2
         <div class="scene scene1 col-md-6">
       <div class="scene-content" style="padding: 1.5em;">
         <center>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-
+      
         </div>
       </div>
 
@@ -309,10 +294,7 @@ order: 2
     <div class="scene scene1 col-md-6">
       <div class="scene-content" style="padding: 1.5em;">
         <center>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-
+         
         </div>
       </div>
       
@@ -329,10 +311,7 @@ order: 2
     <div class="scene scene1 col-md-6">
       <div class="scene-content" style="padding: 1.5em;">
         <center>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-          <i class="fa fa-users" aria-hidden="true" style="font-size: 5em;"></i>
-
+     
         </div>
       </div>
       
