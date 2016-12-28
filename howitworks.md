@@ -202,7 +202,7 @@ order: 2
     }
 
     .stage{
-      height: 25em;
+      height: 27em;
     }
 
     .nextScene{
@@ -221,6 +221,7 @@ order: 2
       font-size: 4em;
       font-family: BlinkMacSystemFont, Roboto;
       font-weight: 100;
+      padding: 0.5em;
     }
  img{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
