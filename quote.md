@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "REQUEST A QUOTE"
+title: "Request A Quote"
 order: 3
 ---
 

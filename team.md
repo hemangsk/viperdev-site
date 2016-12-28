@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "MEET THE TEAM"
+title: "Meet the Team"
 order: 4
 ---
 <div ng-app="viperdev">

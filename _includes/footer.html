@@ -10,12 +10,17 @@
         <span style="color:whitesmoke">Navigation</span>
 
         <ul class="footer-nav-links">
-         <li ><a href="index.html">Home</a></li>
-        <li><a href="aboutvd.html">About viperdev</a></li>
-        <li><a href="howitworks.html">How it Works</a></li>
-                        <li><a href="quote.html">Request a Quote</a></li>
+        {% assign sorted_pages = site.pages | sort:"order" %}  
+  {% for node in sorted_pages %}
+  {% if node.order %}
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url | prepend: site.baseurl }}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
+    {% endif %}
+    {% endif %}
 
-        <li class="active"><a href="team.html">Meet the Team</a></li>
+  {% endfor %}
         </ul>
               </div>
               <div class="col l4 offset-l2 s12">
