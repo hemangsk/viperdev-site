@@ -407,10 +407,13 @@ a:hover > .card{
   font-size: 5em !important;
 }
  .fa-code-fork, .fa-terminal, .fa-laptop{
-  font-size: 5em !important;
   text-align: center;
 }
 
+.my-fa{
+  font-size: 3em !important;
+  text-align: center;
+}
 .plain-fa{
   font-size: 1em !important;
 

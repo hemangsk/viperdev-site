@@ -34,7 +34,7 @@ order: 2
 
  <div class="stage" id="attrtab1">
  <center>
- <div class="stage-title">You give us messy code</div>
+ <div class="stage-title">Do you have messy code?</div>
  <div class="row">
    <div class="col-md-12">
    <img class="responsive-img" src="/viperdev-site/assets/images/messy.png">
@@ -42,7 +42,34 @@ order: 2
  </div>
   </div>
    <div class="stage" id="attrtab2">
-   
+   <center>
+ <div class="stage-title">We'll teach you how to fix it!</div>
+ <div class="row">
+   <div class="col-md-6">
+   <img class="responsive-img fixing" src="/viperdev-site/assets/images/fixing.png">
+   </div>
+
+   <div class="col-md-6">
+     <div class="row">
+     <div class="col-md-4">   <img class="responsive-img" src="/viperdev-site/assets/images/coala_logo.svg">
+</div>
+     <div class="col-md-4"><i class="fa my-fa fa-github" aria-hidden="true"></i></div>
+     <div class="col-md-4"><i class="fa my-fa fa-code-fork" aria-hidden="true"></i>
+</div>
+
+     </div>
+        <div class="row">
+     <div class="col-md-4"><i class="fa my-fa fa-check-circle-o" aria-hidden="true"></i>
+</div>
+     <div class="col-md-4"><i class="fa my-fa fa-commenting" aria-hidden="true"></i>
+</div>
+     <div class="col-md-4"><i class="fa my-fa fa-gitlab" aria-hidden="true"></i>
+</div>
+
+     </div>
+
+   </div>
+ </div>
   </div>
    <div class="stage" id="attrtab3">
   </div>
@@ -113,7 +140,7 @@ order: 2
   }
 
   .stage{
-    height: 20em;
+    height: 25em;
   }
 
 .nextScene{
@@ -130,8 +157,10 @@ order: 2
 
   .stage-title{
         font-size: 4em;
-    font-family: BlinkMacSystemFont;
+    font-family: BlinkMacSystemFont, Roboto;
     font-weight: 100;
     padding: 0.5em;
   }
+
+
 </style>
