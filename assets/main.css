@@ -74,11 +74,10 @@ nav{
 .tabs .indicator {
   position: absolute;
   bottom: 0;
-  height: 2px;
+
   background-color: black;
-  will-change: left, right;
-  margin-left: 4em;
-  margin-right: 4em;
+
+ 
 }
 
 .viper-subtitle{

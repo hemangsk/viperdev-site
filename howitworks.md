@@ -5,345 +5,100 @@ order: 2
 ---
 <section>
   <div class="container">
-    <div class="row">
-      <br>
-      <div class="scene scene1 col-md-6">
-        <div class="scene-content">
-          <img src="/viperdev-site/assets/images/john.png">
-          <div class="meetjohn">
-            Hello! I'm John
-          </div>
-        </div>
-      </div>
 
-      <div class="scene scene2 col-md-6">
-        <div class="scene-content side-title">
+      <div class="card">
+      <ul class="tabs tabs-fixed-width">
+      <li class="tab"><a class="attrtab1" href="#attrtab1">1</a></li>
 
+      <li class="tab disabled"><a class="attrtab2" href="#attrtab2">2</a></li>
 
-          <div class="">John is a Manager at a rapidly growing tech startup</div>
-        </div>
+      <li class="tab disabled"><a class="attrtab3" href="#attrtab3">3</a></li>
 
-        <div class="scene-content side-title">
+      <li class="tab disabled"><a class="attrtab4" href="#attrtab4">4</a></li>
 
+      <li class="tab disabled"><a class="attrtab5" href="#attrtab5">5</a></li>
 
-          <div class="">His company aims to make software that matters</div>
-        </div>
+      <li class="tab disabled"><a class="attrtab6" href="#attrtab6">6</a></li>
 
-        <div class="scene-content side-title">
+      <li class="tab disabled"><a class="attrtab7" href="#attrtab7">7</a></li>
 
+      <li class="tab disabled"><a class="attrtab8" href="#attrtab8">8</a></li>
 
-          <div class="">There are a lot of employees in John's company,</div>
-        </div>
+      <li class="tab disabled"><a class="attrtab9" href="#attrtab9">HOORAY!</a></li>
 
-        <div class="scene-content side-title">
 
+      </ul>
 
-          <div class="">And each of them is jack of their trade</div>
-        </div>
-
-      </div>
-    </div>
-<div class="hr-line"></div>
-
-    <div class="row">
-      <br>
-      <div class="scene scene2 col-md-6">
-        <div class="scene-content side-title">
-
-
-          <div class="">But the productivity is declining at John's office.</div>
-        </div>
-
-        <div class="scene-content side-title">
-
-
-          <div class="">The team spends their precious time on repetitive tasks.</div>
-        </div>
-
-        <div class="scene-content side-title">
-
-
-          <div class="">And this happens almost everyday.</div>
-        </div>
-
-
-
-      </div>
-
-      <div class="scene scene1 col-md-6">
-        <div class="scene-content" style="padding: 1.5em;">
-          <center>
-           <i class="fa fa-repeat" aria-hidden="true" style="    font-size: 5em;"></i>
-
-           <i class="fa fa-tasks" aria-hidden="true" style="    font-size: 3em;"></i>
-           &nbsp; &nbsp; &nbsp;
-           <i class="fa fa-repeat" aria-hidden="true" style="    font-size: 5em;"></i>
-
-           <i class="fa fa-tasks" aria-hidden="true" style="    font-size: 3em;"></i>
-
-         </div>
-       </div>
-
-
-     </div>
-
-     <div class="row">
-      <br>
-      <div class="scene scene1 col-md-6">
-        <div class="scene-content" style="padding: 1.5em;">
-         <i class="fa fa-code" aria-hidden="true" style="    font-size: 5em;"></i>
-
-         <i class="fa fa-bug" aria-hidden="true" style="    font-size: 3em;"></i>
-         <i class="fa fa-code" aria-hidden="true" style="    font-size: 5em;"></i>
-
-       </div>
-     </div>
-
-     <div class="scene scene2 col-md-6">
-      <div class="scene-content side-title">
-
-
-        <div class="">Also, there have been a lot of downtimes lately.</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class=""><strong>The Cause</strong> : Bugs in their legacy code.</div>
-      </div>
-
-    
-
-      <div class="scene-content side-title">
-
-
-        <div class="">He needs an immediate solution of this bug problem.</div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="row">
-    <br>
-    <div class="scene scene2 col-md-6">
-      <div class="scene-content side-title">
-
-
-        <div class="">John calls his team - A Team, The Awesome Team.</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">John believes that productivity can be increased to a greater extent if he inculcates teamspirit.</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">But John is busy himself with his work and that leaves no time for him to motivate his team.</div>
-      </div>
-
-      
-
-    </div>
-
-    <div class="scene scene1 col-md-6">
-      <div class="scene-content" style="padding: 1.5em;">
-        <center>
-        </div>
-      </div>
-      
-
-    </div>
-
-
-
-     <div class="row">
-      <br>
-      <div class="scene scene1 col-md-6">
-        <div class="scene-content" style="padding: 1.5em;">
-         </div>
-     </div>
-
-     <div class="scene scene2 col-md-6">
-      <div class="scene-content side-title">
-
-
-        <div class="">One Day, John finally decided to fix these problems</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">He grabbed his phone and called up Viperdev</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">Viperdev team reached John's office.</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">John told them about his problems.</div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="row">
-    <br>
-    <div class="scene scene2 col-md-6">
-      <div class="scene-content side-title">
-
-
-        <div class="">"Don't you worry John, We're here", Viperdev Team said.</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">The Viperdev team assembled everyone at John's office</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">And then they started their workshop.</div>
-      </div>
-
-      
-
-    </div>
-
-    <div class="scene scene1 col-md-6">
-      <div class="scene-content" style="padding: 1.5em;">
-        <center>
-   
-        </div>
-      </div>
-      
-
-    </div>
-
-
-
-  <div class="row">
-    <br>
-        <div class="scene scene1 col-md-6">
-      <div class="scene-content" style="padding: 1.5em;">
-        <center>
-      
-        </div>
-      </div>
-
-    <div class="scene scene2 col-md-6">
-      <div class="scene-content side-title">
-
-
-      <div class="">Viperdev Team did practical demonstrations of task automation.</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">They used tools which were completely open source.</div>
-      </div>
- <div class="scene-content side-title">
-
-
-        <div class="">These tools were at par with their commercial counterparts.</div>
-      </div>
-    
-    </div>
-    </div>
-
-
-
- <div class="row">
-    <br>
-    <div class="scene scene2 col-md-6">
-      <div class="scene-content side-title">
-
-
-        <div class="">Then Viperdev Team demonstrated version control in action.</div>
-      </div>
-
-       <div class="scene-content side-title">
-
-
-        <div class="">The A Team learnt how they can collaborate among themselves.</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">Their code went from <strong>very buggy</strong> to <strong>completely maintainable</strong>.</div>
-      </div>
-
-     
-
-      
-
-    </div>
-
-    <div class="scene scene1 col-md-6">
-      <div class="scene-content" style="padding: 1.5em;">
-        <center>
-         
-        </div>
-      </div>
-      
-
-    </div>
-
-
-
-
- <div class="row">
-    <br>
+<div class="card-action">
   
 
-    <div class="scene scene1 col-md-6">
-      <div class="scene-content" style="padding: 1.5em;">
-        <center>
-     
-        </div>
-      </div>
-      
-
-    
-   <div class="scene scene2 col-md-6">
-     
-
-       <div class="scene-content side-title">
-
-
-        <div class="">The A Team was now very well aquainted with the best software development practices.</div>
-      </div>
-
-      <div class="scene-content side-title">
-
-
-        <div class="">They were all ready to boost the productivity</strong>.</div>
-      </div> 
-
-       <div class="scene-content side-title">
-
-
-        <div class="">Viperdev Team demonstrated innovative ideas for planning roadmap.</div>
-      </div>    
-
-    </div>
-
+ <div class="stage" id="attrtab1">
+ <center>
+ <div class="stage-title">You give us messy code</div>
+ <div class="row">
+   <div class="col-md-12">
+   <img class="responsive-img" src="/viperdev-site/assets/images/messy.png">
+   </div>
+ </div>
+  </div>
+   <div class="stage" id="attrtab2">
+   
+  </div>
+   <div class="stage" id="attrtab3">
+  </div>
+   <div  class="stage" id="attrtab4">
+  </div>
+   <div class="stage" id="attrtab5">
+  </div>
+   <div class="stage" id="attrtab6">
+  </div>
+   <div class="stage" id="attrtab7">
+  </div>
+   <div class="stage" id="attrtab8">
+  </div>
+   <div class="stage" id="attrtab9">
+  </div>
 </div>
 
+      </div>
+
+</div>
+<div class="container">
+<div class="col-md-12"><center><a class="nextScene waves-effect btn">NEXT</a></div>
   </div>
 </section>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+    story = {}
+    story.length = 9;
+    $('ul.tabs').tabs();
+
+       $('.nextScene').on("click", function(){
+                
+                var attribute =   $('.tab').find('.active').attr('href');
+                var regex = /(\d+)/g;
+                var cur = (attribute.match(regex));  
+
+                if(cur >= story.length){
+                    cur = 1;
+                }
+
+                else if(cur < story.length){
+                   
+                    
+                    $('.' + 'attrtab' + cur.toString()).parent().next().removeClass('disabled');
+                   console.log(cur);
+                     cur++;
+                }
+                
+                $('ul.tabs').tabs('select_tab', 'attrtab' + cur.toString());
+           
+            });
+  });
+</script>
 
 <style type="text/css">
   .scene{
@@ -357,6 +112,13 @@ order: 2
    
   }
 
+  .stage{
+    height: 20em;
+  }
+
+.nextScene{
+  width: 100%
+}
   .hr-line{
     height: 3em;
     border-bottom: 2px solid;
@@ -364,5 +126,12 @@ order: 2
 
   .side-title{
     margin-bottom: 0.8em;
+  }
+
+  .stage-title{
+        font-size: 4em;
+    font-family: BlinkMacSystemFont;
+    font-weight: 100;
+    padding: 0.5em;
   }
 </style>
