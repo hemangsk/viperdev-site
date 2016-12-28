@@ -26,18 +26,19 @@ app.controller('Data', ['$http', function($http , $scope){
 			"picture" : "https://avatars3.githubusercontent.com/u/6530123",
 			"bio": "Community evangelist. Leader of the coala community team and creator of the LineSpots algorithm."
 		},
-		{
-			"name" : "Hemang Kumar",
-			"id" : "@hemangsk",
-			"picture": "https://avatars1.githubusercontent.com/u/13018570",
-			"bio" : "Frontend lover. Creates and designs web frontends with passion."
-		},
+		
                 {
                         "name" : "Sebastian Latacz",
                         "id" : "@seblat",
                         "picture": "https://avatars0.githubusercontent.com/u/18051901",
                         "bio" : "Business expert. Founder of GitMate and solver of the most complicated business problems."
-                }
+                },
+                {
+			"name" : "Hemang Kumar",
+			"id" : "@hemangsk",
+			"picture": "https://avatars1.githubusercontent.com/u/13018570",
+			"bio" : "Frontend lover. Creates and designs web frontends with passion."
+		}
 	]
 	
 

@@ -21,7 +21,7 @@ order: 4
              </div>
              <div class="card-action profile-data" >
               <center>
-                <img class="profile-img" ng-src={{mem.picture}} height="150" >
+                <img class="profile-img" ng-src={{mem.picture}} height="110" >
                 </center>
                 <br>
                 <div class="person-name">{{mem.name}}</div>
@@ -35,7 +35,6 @@ order: 4
    </div>
  </div>
  <div class="" href="#one!">
-  <div class="quote-tagline">QUICK SOLUTIONS</div>
       <div class="quotation">
       The team's response time was mind blowing - I could get any question answered within minutes!
 </div>
@@ -48,3 +47,10 @@ order: 4
 </section>
 </div>
 </div>
+
+<style type="text/css">
+  .showcase-gi{
+    margin-left: 0em !important;
+    margin-right: 0em !important;
+  }
+</style>
